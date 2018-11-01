@@ -28,7 +28,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self.view addSubview:self.tableView];
     [self initRongCloud];
-    self.testAPIs = @[@"测试连接", @"发送单聊消息", @"发送群组消息", @"加入聊天室并发送消息", @"发送聊天室消息"];
+    self.testAPIs = @[@"测试连接", @"发送单聊消息", @"发送群组消息", @"加入聊天室并发送消息", @"特定接口测试"];
 }
 
 - (void)viewDidLayoutSubviews {
@@ -80,6 +80,10 @@
             
         case 3:
             [self joinChatRoom];
+            break;
+            
+        case 4:
+            [self specificAPITest];
             break;
             
         default:
@@ -179,6 +183,9 @@
     }];
 }
 
+/**
+ 加入聊天室并发送消息
+ */
 - (void)joinChatRoom {
     NSDictionary *parameterDic = DATA[@"joinChatroom"];
     NSString *targetId = parameterDic[@"targetId"];
@@ -188,5 +195,9 @@
     } error:^(RCErrorCode status) {
         [weakself alertInfo:[NSString stringWithFormat:@"加入失败，错误码: %ld",(long)status]];
     }];
+}
+
+- (void)specificAPITest {
+    [self alertInfo:@"在点击执行的代码中测试所写的API"];
 }
 @end

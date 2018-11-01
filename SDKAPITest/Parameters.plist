@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>init</key>
+	<dict>
+		<key>appkey</key>
+		<string>pwe86ga5elql6</string>
+	</dict>
+	<key>connect</key>
+	<dict>
+		<key>token</key>
+		<string>evH/PN1Ael0piFhvirPrOPsL3o31YMibY0L2+fgVQWKjBiN1p2aRaKizC9PSCW+pkoMjBJTUFGHYLJ8lugPlNg==</string>
+	</dict>
+</dict>
+</plist>

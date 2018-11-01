@@ -12,5 +12,20 @@
 		<key>token</key>
 		<string>evH/PN1Ael0piFhvirPrOPsL3o31YMibY0L2+fgVQWKjBiN1p2aRaKizC9PSCW+pkoMjBJTUFGHYLJ8lugPlNg==</string>
 	</dict>
+	<key>privateMessage</key>
+	<dict>
+		<key>targetId</key>
+		<string>test2</string>
+	</dict>
+	<key>groupMessage</key>
+	<dict>
+		<key>targetId</key>
+		<string>group1</string>
+	</dict>
+	<key>joinChatroom</key>
+	<dict>
+		<key>targetId</key>
+		<string>chatroom1</string>
+	</dict>
 </dict>
 </plist>
